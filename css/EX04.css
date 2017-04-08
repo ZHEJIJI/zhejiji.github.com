@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-06 14:48:17
+ * @version $Id$
+ */
+
+ /*  实验1  */
+ body {
+  background-color:#99bd90;
+  margin-left:255px;
+  align-content: center;
+}
+.ui-box {
+  box-sizing: border-box;
+  width:800px;
+  height:600px;
+  background-color:#cdd3f5;
+  border: 1px solid black;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.ui-box-term-up {
+  box-sizing: border-box;
+  width:760px;
+  height:120px;
+  background-color: #99bd90;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.ui-box-term-down {
+  box-sizing: border-box;
+  width:760px;
+  height:420px;
+  background-color: #99bd90;
+  border: 1px solid black;
+  position: relative;
+  top:20px;
+}
+.ui-box-term-first {
+  box-sizing: border-box;
+  width:80px;
+  height:80px;
+  background-color: #cdd3f5;
+  margin:20px;
+  border: 1px solid black;
+}
+.ui-box-term-second {
+  width:80px;
+  height:80px;
+  background-color: #cdd3f5;
+  margin:20px;
+  position: absolute;
+  right: 0px;
+  border: 1px solid black;
+}
+.ui-box-term-left {
+  box-sizing: border-box;
+  width:300px;
+  height:370px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.ui-box-term-big {
+  box-sizing: border-box;
+  width:200px;
+  height:300px;
+  background-color: #cdd3f5;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.ui-box-term-small {
+  box-sizing: border-box;
+  width:50px;
+  height:50px;
+  background-color: #cdd3f5;
+  margin-right: 25px;
+  border: 1px solid black;
+  position: relative;
+  left: 20px;
+}
+.ui-box-term-right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  left:260px;
+  top:20px;
+}
+.ui-box-term-last {
+  box-sizing: border-box;
+  width:480px;
+  height:40px;
+  background-color: #cdd3f5;
+  margin-bottom:15px;
+  margin-right:20px;
+  border: 1px solid black;
+}
+
+
+/*  实验2  */
+.ui-box-two {
+  box-sizing: border-box;
+  width:390px;
+  height:370px;
+  border:1px solid black;
+  position: absolute;
+  top:650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-box-img {
+  width:388px;
+  height:260px;
+  border-bottom:1px solid black;
+  background-color:#ffffeb;
+}
+.ui-box-term-below {
+  background-color:#ffe6f4;  
+  width:388px;
+  height:110px;
+}
+.ui-box-title {
+  box-sizing: border-box;
+  width:370px;
+  height:20px;
+  margin-top:10px;
+  margin-left:10px;
+  background-color:#ffffeb;
+  border: 1px solid black;
+  font-size: 10px;
+  text-indent: 5px;
+}
+.ui-box-price {
+  box-sizing: border-box;
+  width:370px;
+  height:30px;
+  border:1px solid black;
+  margin:10px;
+  background-color:#ffffeb;
+  font-size:12px;
+  text-decoration: line-through;
+  text-align: justify;
+  text-indent: 2px;
+}
+span {
+  color:#f7365e;
+}
+p:before {
+  float:left;
+  font-size: 18px;
+  content: "￥实际价格";
+  color:#f7365e;
+  position: relative;
+  top:-10px;
+}
+p:after {
+  font-size: 12px;
+  color:#000;
+  float:right;
+  content: "XXX件已售";
+}
+
+/*  实验3  */
+.ui-background {
+  width:100%;
+  height:800px;
+  position: absolute;
+  top:1050px;
+  left:0px;
+  background-color: #fff;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
+}
+.ui-bigbox {
+  box-sizing: border-box;
+  width:655px;
+  height:420px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+
+}
+.ui-row-column {
+  box-sizing: border-box;
+  width:210px;
+  height:200px;
+}
+img {
+  box-sizing: border-box;
+  width:208px;
+  height:143px;
+}
+.ui-row-below {
+  box-sizing: border-box;
+  background-color:#fff;  
+  width:208px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:-4px;
+  
+}
+.ui-row-title {
+  box-sizing: border-box;
+  width:245px;
+  height:15px;
+  background-color:#ffffeb;
+  font-size: 12px;
+  transform: scale(0.75);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  
+}
+.ui-row-price {
+  box-sizing: border-box;
+  width:200px;
+  height:22.5px;
+  background-color:#ffffeb;
+  color: #acb0b9;
+  text-indent: -30px;
+}
+
+.ui-row-h1-2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ui-row-h1-2:after {
+  text-indent: 20px;
+  color: #acb0b9;
+  content: "  [ INMAN/黄曼 ] 聚划算 聚划算 聚划算";
+}
+.ui-row-h2-2 {
+  width:230px;
+  font-size: 12px;
+  transform: scale(0.75);
+}
+.ui-row-h2-2:before {
+  content: "￥149";
+  color:#f7365e;
+  font-size: 20px;
+}
+.ui-row-h2-2:after {
+  content:"件已售";
+  color: #acb0b9;
+}
+span1 {
+  text-decoration: line-through;
+}
+.ui-row-h1-1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ui-row-h1-1:after {
+  text-indent: 20px;
+  color: #acb0b9;
+  content: "  [ 迪士尼 ] 正品牌韩国学生女士聚划算";
+}
+.ui-row-h2-1 {
+  width:230px;
+  font-size: 12px;
+  transform: scale(0.75);
+}
+.ui-row-h2-1:before {
+  content: "￥102";
+  color:#f7365e;
+  font-size: 20px;
+}
+.ui-row-h2-1:after {
+  content:"件已售";
+  color: #acb0b9;
+}
+
+.ui-row-h1-3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ui-row-h1-3:after {
+  text-indent: 20px;
+  color: #acb0b9;
+  content: "  小帅私人影院 高清家用微型 聚划算";
+}
+.ui-row-h2-3 {
+  width:230px;
+  font-size: 12px;
+  transform: scale(0.75);
+}
+.ui-row-h2-3:before {
+  content: "￥999";
+  color:#f7365e;
+  font-size: 20px;
+}
+.ui-row-h2-3:after {
+  content:"件已售";
+  color: #acb0b9;
+}
+.ui-row-h1-4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ui-row-h1-4:after {
+  text-indent: 20px;
+  color: #acb0b9;
+  content: "  小帅私人影院 高清家用微型 聚划算";
+}
+.ui-row-h2-4 {
+  width:230px;
+  font-size: 12px;
+  transform: scale(0.75);
+}
+.ui-row-h2-4:before {
+  content: "￥2799";
+  color:#f7365e;
+  font-size: 20px;
+}
+.ui-row-h2-4:after {
+  content:"件已售";
+  color: #acb0b9;
+}
+.ui-row-h1-5 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ui-row-h1-5:after {
+  text-indent: 20px;
+  color: #acb0b9;
+  content: "  小帅私人影院 高清家用微型 聚划算";
+}
+.ui-row-h2-5 {
+  width:230px;
+  font-size: 12px;
+  transform: scale(0.75);
+}
+.ui-row-h2-5:before {
+  content: "￥22";
+  color:#f7365e;
+  font-size: 20px;
+}
+.ui-row-h2-5:after {
+  content:"件已售";
+  color: #acb0b9;
+}
+.ui-row-h1-6 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ui-row-h1-6:after {
+  text-indent: 20px;
+  color: #acb0b9;
+  content: "  小帅私人影院 高清家用微型 聚划算";
+}
+.ui-row-h2-6 {
+  width:230px;
+  font-size: 12px;
+  transform: scale(0.75);
+}
+.ui-row-h2-6:before {
+  content: "￥29";
+  color:#f7365e;
+  font-size: 20px;
+}
+.ui-row-h2-6:after {
+  content:"件已售";
+  color: #acb0b9;
+}

@@ -5,55 +5,59 @@
  * @date    2017-03-30 13:34:00
  * @version $Id$
  */
- .box {
+ .background {
  	box-sizing: border-box;
  	position: absolute;
- 	top: 5%;
- 	left: 33%;
- 	width: 34%;
- 	height: 100%;
+ 	left:37.5%;
+ 	top: 50px;
+ 	width: 300px;
+ 	height: 500px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ .box {
+ 	box-sizing: border-box;
+ 	width: 295px;
+ 	height: 490px;
  }
  .box1 {
  	box-sizing: border-box;
  	position: relative;
- 	left: 0;
- 	width: 100%;
- 	height: 5%;
- 	font-size: 14px;
+ 	width: 295px;
+ 	height: 30px;
+ 	font-size: 12px;
  }
  .box2 {
  	box-sizing: border-box;
  	position: relative;
- 	left: 0;
  	width: 100%;
- 	height: 15%;
- 	border-right: 1px dotted gray;
- 	border-left: 1px dotted gray;
+ 	height: 75px;
+ 	border-right: 1px solid #eeeeee;
+ 	border-left: 1px solid #eeeeee;
  }
  .box3 {
  	box-sizing: border-box;
  	position: relative;
  	left: 0;
  	width: 100%;
- 	height: 20%;
- 	border: 1px dotted gray;
+ 	height: 123px;
+ 	border: 1px solid #eeeeee;
  }
  .box4 {
  	box-sizing: border-box;
  	position: relative;
  	left: 0;
  	width: 100%;
- 	height: 10%;
- 	border-right: 1px dotted gray;
- 	border-left: 1px dotted gray;
+ 	height: 47px;
+ 	border-right: 1px solid #eeeeee;
+ 	border-left: 1px solid #eeeeee;
  }
  .box5 {
  	box-sizing: border-box;
- 	position: relative;
- 	left: 0;
- 	width: 100%;
- 	height: 35%;
- 	border-top: 1px dotted gray;
+ 	width: 296px;
+ 	height: 225px;
+ 	border-top: 1px solid #eeeeee;
  }
  
  .box1-1 {
@@ -61,10 +65,10 @@
  	float: left;
  	width: 20%;
  	height: 100%;
- 	border-right: 1px dotted gray;
- 	border-top: 1px dotted gray;
- 	border-bottom: 1px dotted gray;
- 	background-color: #A9A9A9;
+ 	border-right: 1px solid #eeeeee;
+ 	border-top: 1px solid #eeeeee;
+ 	border-bottom: 1px solid #eeeeee;
+ 	background-color: #f7f7f7;
  	display: -webkit-box;
  	-webkit-box-pack: center;
  	-webkit-box-align: center;
@@ -75,142 +79,135 @@
  	float: left;
  	width: 20%;
  	height: 100%;
- 	border-left: 1px dotted gray;
- 	border-top: 1px dotted gray;
- 	border-right: 1px dotted gray;
+ 	border-left: 1px solid #eeeeee;
+ 	border-top: 1px solid #eeeeee;
+ 	border-right: 1px solid #eeeeee;
  	display: -webkit-box;
  	-webkit-box-pack: center;
  	-webkit-box-align: center;
  }
  .box2-1 {
- 	box-sizing: border-box;
- 	float: left;
- 	width:96%;
- 	height: 30%;
- 	margin: 2%;
- 	display: -webkit-box;
- 	-webkit-box-pack: center;
- 	-webkit-box-align: center;
- 	background-color: #33FF33;
+ 	position: relative;
+ 	top:10px;
+ 	left:5px;
+ 	width:260px;
+ 	height: 20px;
+ 	margin: 6px;
+ 	border:1px solid #6f6f6f;
  }
 
-.box3-1 {
-	box-sizing: border-box;
+ .box3-1 {
+ 	box-sizing: border-box;
  	float: left;
- 	width: 20%;
- 	height: 50%;
- 	border: 1px solid gray;
- 	margin-left: 4%;
- 	margin-top: 2%;
-}
-.image {
-	width: 100%;
-	height: 100%;
-}
-.box3-2 {
-	box-sizing: border-box;
+ 	width: 65px;
+ 	height: 65px;
+ 	border: 1px solid #eeeeee;
+ 	margin-left: 13px;
+ 	margin-top: 9px;
+ }
+ .image {
+ 	width: 65px;
+ 	height: 65px;
+ }
+ .box3-2 {
+ 	box-sizing: border-box;
  	float: left;
- 	width: 70%;
- 	height: 20%;
- 	margin-left: 5%;
- 	margin-top: 2%;
-}
-.clear {
-	clear: both;
-}
-.box3-3 {
-	box-sizing: border-box;
+ 	position: relative;
+ 	top:13px;
+ 	width: 190px;
+ 	height: 20px;
+ 	margin-top: 7px;
+ 	margin-left:7px;
+ 	border:1px solid #6f6f6f;
+ }
+ .clear {
+ 	clear: both;
+ }
+ .box3-3 {
+ 	box-sizing: border-box;
  	float: left;
- 	width: 25%;
- 	height: 25%;
- 	border: 1px dotted gray;
- 	margin-top: 3%;
- 	margin-left: 6%;
- 	background-color: #7FFFD4;
- 	font-size: 14px;
+ 	position: relative;
+ 	left:14px;
+ 	width: 85px;
+ 	height: 25px;
+ 	border: 1px solid #eeeeee;
+ 	margin-top: 10px;
+ 	margin-left: 3px;
+ 	background-color: #ff4400;
+ 	font-size: 12px;
  	display: -webkit-box;
  	-webkit-box-pack: center;
  	-webkit-box-align: center;
-}
-.box4-1 {
-	box-sizing: border-box;
+ }
+ .box4-1 {
+ 	box-sizing: border-box;
  	float: left;
- 	width:96%;
- 	height: 52%;
- 	margin-left: 2%;
- 	margin-top: 3%;
- 	display: -webkit-box;
- 	-webkit-box-pack: center;
- 	-webkit-box-align: center;
- 	background-color: #66FF66;
-}
-.box5-1 {
-	box-sizing: border-box;
+ 	position: relative;
+ 	top:14px;
+ 	left:10px;
+ 	width:260px;
+ 	height: 20px;
+ 	border:1px solid #6f6f6f;
+ }
+ .box5-1 {
+ 	box-sizing: border-box;
  	float: left;
- 	width: 39.99%;
- 	height: 66.5%;
- 	border-bottom: 1px dotted gray;
- 	border-left: 1px dotted gray;
-}
-.box5-2 {
-	box-sizing: border-box;
+ 	width: 118px;
+ 	height: 149px;
+ 	border-bottom: 1px solid #eeeeee;
+ 	border-left: 1px solid #eeeeee;
+ }
+ .box5-2 {
+ 	box-sizing: border-box;
  	float: left;
- 	width: 19.99%;
- 	height: 33.3%;
- 	border-left: 1px dotted gray;
- 	border-bottom: 1px dotted gray;
-}
-.box5-3 {
-	box-sizing: border-box;
- 	float: right;
- 	width: 20%;
- 	height: 33.3%;
- 	border-left: 1px dotted gray;
- 	border-bottom: 1px dotted gray;
- 	border-right: 1px dotted gray;
-}
-.img1 {
-	height: 60%;
-	width:40%;
-	position: relative;
-	top: 10%;
-	left:30%;
-}
-.img2 {
-	height: 60%;
-	width:40%;
-	position: relative;
-	top: 10%;
-	left:30%;
-}
-span1 {
-	position: relative;
-	top: 10%;
-	left: 40%;
-	font-family: "Times New Roman",Times,serif;
-	font-size: 14px;
-}
-span2 {
-	position: relative;
-	top: 5%;
-	left: 32%;
-	font-family: "Times New Roman",Times,serif;
-	font-size: 14px;
-}
-.user {
-	position: relative;
-	left: 2.5%;
-	width: 70%;
-	height: 100%;
-}
-.password {
-	position: relative;
-	left: 2%;
-	width: 70%;
-	height: 100%;
-}
-
-span {
-	font-family: "Times New Roman",Times,serif;
-	font-size: 14px;
-}
+ 	width: 59px;
+ 	height: 74.5px;
+ 	border-left: 1px solid #eeeeee;
+ 	border-bottom: 1px solid #eeeeee;
+ }
+ .box5-3 {
+ 	box-sizing: border-box;
+ 	float: left;
+ 	width: 59px;
+ 	height: 74.9px;
+ 	border-left: 1px solid #eeeeee;
+ 	border-bottom: 1px solid #eeeeee;
+ 	border-right: 1px solid #eeeeee;
+ }
+ .img1 {
+ 	height: 65px;
+ 	width:45px;
+ 	position: relative;
+ 	top: 30px;
+ 	left:35px;
+ }
+ .img2 {
+ 	height: 35px;
+ 	width:35px;
+ 	position: relative;
+ 	top:10px;
+ 	left:11px;
+ }
+ span {
+ 	font-size: 12px;
+ }
+ span1 {
+ 	font-size: 12px;
+ 	color: #fff;
+ }
+ .ui-box5-big {
+ 	text-align: center;
+ 	position: relative;
+ 	top:35px;
+ 	font-size:12px;
+ 	width:50;
+ 	height:15px;
+ }
+ .ui-box5-small {
+ 	text-align: center;
+ 	position: relative;
+ 	top:11px;
+ 	font-size:12px;
+ 	width:50;
+ 	height:15px;
+ }

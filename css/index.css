@@ -9,13 +9,14 @@
 table {
 	font-family: "Times New Roman",Times,serif;
 	position: absolute;
+	top:20px;
 	left: 33%;
 	width: 33%;
 	height: 80%;
 }
 td {
 	width: 100%;
-	height: 25px;
+	height: 50px;
 	display:-webkit-box;
  	-webkit-box-pack:center;
  	-webkit-box-align:center;
