@@ -1,0 +1,447 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-21 08:11:02
+ * @version $Id$
+ */
+
+body {
+		font-family: "Times New Roman",Georgia,Serif;
+}
+ .ui-background {
+ 	display: flex;
+ 	justify-content: center;
+ }
+.ui-big {
+	width:691px;
+	height:320px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ui-title {
+	width:688px;
+	height:20px;
+	border-bottom: 4px solid #1d89c5;
+}
+.ui-path {
+	width:80px;
+	height:23px;
+	background-color: #1d89c5;
+	color: #fff;
+	font-size:13px;
+	text-align: center;
+	border-radius: 2px;
+	line-height: 20px;
+}
+.ui-path:after {
+	width:19px;
+	height:19px;
+	background-color: #fe570a;
+	position: relative;
+	left:29px;
+	top:-1px;
+	content: "早";
+	font-size:14px;
+	border-radius: 2px;
+	padding:2px;
+}
+.ui-content-first {
+	position: relative;
+	top:-1px;
+	width:686px;
+	height:23.8px;
+	background-color: #fbfbfb;
+	border-left:1px solid #cecbce;
+	border-right:1px solid #cecbce;
+	line-height: 23px;
+	font-size:14px;
+}
+.ui-content-second {
+	position: relative;
+	top:-2px;
+	width:686px;
+	height:23.8px;
+	background-color: #fbfbfb;
+	text-align: center;
+	border-left:1px solid #cecbce;
+	border-right:1px solid #cecbce;
+	font-size:13px;
+	line-height: 18px;
+
+}
+span {
+	color:#d70000;
+	font-size:15px;
+}
+span1 {
+	color:#cf0000;
+	font-size:13px;
+}
+.ui-style {
+	float:left;
+}
+.ui-first-total {
+	padding-left:25px;
+	position: relative;
+	top:1px;
+}
+.ui-first-price {
+	width:50px;
+	height:20px;
+	padding-left:12px;
+	position: relative;
+	top:2px;
+	font-size:14px;
+	color:#d70000;
+}
+.ui-first-price:before {
+	content:"6,560";
+	font-size:13.5px;
+	color:#d70000;
+	position: relative;
+	font-weight: bold;
+	top:1px;
+
+}
+.ui-content-padding {
+	padding-left:8px;
+}
+.ui-second-time {
+	font-size:14px;
+	color:#d70000;
+	font-weight: bold;
+}
+.ui-second-span:before {
+	content: "1";
+	font-size:13px;
+	position: relative;
+	top:1px;
+	left:1px;
+	letter-spacing: -1px;
+}
+.ui-second-span:after {
+	content: "0";
+	font-size:13px;
+	position: relative;
+	top:1px;
+	letter-spacing: -1px;
+}
+
+.ui-second-tight {
+
+	position: relative;
+	left:-5px;
+}
+.ui-second-wide {
+	padding-left:24px;
+}
+.ui-second-minute {
+	margin-left:3px;
+}
+.ui-second-minute:before {
+	content:"54";
+	font-size: 13px;
+	font-weight:bold;
+	letter-spacing: -1px;
+}
+.ui-second-times {
+	font-size: 13px;
+	color:#d70000;
+	font-weight: bold;
+	position: relative;
+	top:1px;
+	left:30px;
+}
+.ui-second-times:before {
+	content:"乘换";
+	color:black;
+	font-weight: lighter;
+	position: relative;
+	top:-1px;
+	left:-8px;
+}
+.ui-second-times:after {
+	content:"回";
+	color:#d70000;
+	position: relative;
+	top:-1px;
+	left:-2px;
+}
+.ui-second-distance {
+	padding-left:50px;
+}
+.ui-second-distance:after {
+	content:"190.4km";
+	font-weight: bold;
+	font-size: 13px;
+	padding-left:5px;
+	letter-spacing: -1px;
+}
+.ui-print {
+	position: relative;
+	top:-2px;
+	width:686px;
+	height:23px;
+	background-color: #fffbde;
+	border:1px solid #cecbce;
+	line-height: 22px;
+}
+.ui-print-style {
+	font-size:13px;
+	color:#002cbd;
+	text-decoration: underline;
+	float: right;
+	padding-right:10px;
+	padding-left:5px;
+	letter-spacing: 2px;
+}
+.fa-file-text-o, .fa-print {
+	color: #3f3f3f;
+	font-size:12px;
+	float: right;
+	padding-top:4px;
+}
+.ui-pathway {
+	margin-top:3px;
+	width:688px;
+	height:16.5px;
+	background-color: #cedce8;
+	border-bottom: 1px solid #fff;
+	display: flex;
+	justify-content: flex-start;
+}
+.ui-pathway-style {
+	font-size:12.5px;
+	text-align: center;
+	color:#607a90;
+}
+.ui-pathway-road {
+	width:397px;
+	height:16px;
+}
+.ui-pathway-position {
+	width:68px;
+	height:16px;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+}
+.ui-pathway-cost {
+	width:69px;
+	height:16px;
+}
+.ui-pathway-specialcost {
+	width:79.8px;
+	height:16px;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+}
+.ui-pathway-distance {
+	width:69.9px;
+	height:16px;
+}
+.ui-head {
+	width:687px;
+	height:40px;
+	background-color: #f2f2f2;
+	float: left;
+	border-left:1px solid #cecbce;
+	border-right:1px solid #cecbce;
+	border-bottom:1px solid #cecbce;
+	display: flex;
+	justify-content: flex-start;
+}
+.ui-head-style {
+	display: flex;
+	justify-content: center;
+	line-height: 39px;
+}
+.ui-head-name {
+	box-sizing: border-box;
+	width:400px;
+	height:39px;
+	font-size:18px;
+	font-weight: bold;
+	padding-right: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 39px;
+}
+.fa-cloud, .fa-square {
+	letter-spacing: 3px;
+	padding-top:13px;
+}
+.fa-cloud {
+	color:#f7fcfe;	
+-webkit-text-stroke: 1px #48b3e7;
+}
+.fa-square-one {
+	color:#37a8e0;
+-webkit-text-stroke: 1px #fff;
+}
+.ui-head-position {
+	width:70px;
+	height:39px;
+	font-size:13px;
+}
+.ui-head-charts {
+	width:215px;
+	height:39px;
+	display: flex;
+	justify-content: flex-end;
+}
+.ui-head-chart {
+	width:40px;
+	height:37px;
+	margin-left: 2px;
+	font-size:12px;
+	color: #002cbd;
+	text-decoration: underline;
+}
+.ui-head-name-time {
+	width:102px;
+	font-size:13px;
+	font-weight: lighter;
+	text-align: center;
+}
+.ui-head-position-again {
+	width:70px;
+	height:39px;
+	font-size:13px;
+	padding-top:2px;
+	display: flex;
+	justify-content: center;
+	line-height: 18px;
+}
+.fa-square-two {
+	font-size:14px;
+	color:#fff;
+-webkit-text-stroke: 2px #37a8e0;
+}
+.ui-line {
+	width:688px;
+	height:36px;
+	background-color: #fff;
+	float: left;
+	border-bottom:1px solid #cecbce;
+	display: flex;
+	justify-content: flex-start;
+
+}
+.ui-line-style {
+	line-height: 36px;
+}
+.ui-line-time {
+	width:108px;
+	height:36px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ui-line-time-point {
+	width:106px;
+	height:16px;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	line-height: 22px;
+}
+.ui-line-time-period {
+	width:106px;
+	height:16px;
+	text-align: center;
+	font-size: 12.5px;
+	line-height: 12px;
+}
+
+.ui-line-road {
+	width:290px;
+	height:36px;
+}
+
+.ui-line-road-border {
+	display: flex;
+	flex-wrap: wrap;
+}
+.fa-window-minimize{
+	color:#fff;
+	-webkit-text-stroke: 3px #96c7d8;
+}
+.fa-one {
+	position: relative;
+	left:1px;
+}
+.fa-two {
+	position: relative;
+	left:-15px;
+	top:18.5px;
+}
+.ui-line-road-text {
+	margin-left:20px;
+	margin-top:-15px;
+	color:#007cce;
+	font-weight: bold;
+	font-size: 14px;
+}
+.ui-line-road-text:after {
+	content:"のそみ203号(新大阪行)";
+	color:#0069a3;
+	text-decoration: underline;
+	font:13.5px;
+	padding-left: 10px;
+	font-weight: lighter;
+}
+
+.fa-truck {
+	color:#007e54;
+}
+.ui-line-road-text-again {
+	margin-left:20px;
+	margin-top:-15px;
+	color:#007e54;
+	font-weight: bold;
+	font-size: 14px;
+}
+.ui-line-road-text-again:after {
+	content:"JR京都线新快速(姬路行)";
+	color:#0069a3;
+	font:13.5px;
+	padding-left: 10px;
+	font-weight: lighter;
+}
+.ui-line-position {
+	width:70px;
+	height: 38px;
+	border-left:1px solid #cecbce;
+	border-right:1px solid #cecbce;
+	position: relative;
+	top:-1px;
+}
+
+.ui-line-cost {
+	width:69px;
+	height:37px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+.ui-line-specialcost {
+	line-height: 15px;
+	width:78px;
+	height:36px;
+	font-size:13px;
+	text-align: center;
+	padding-top:2px;
+	letter-spacing: -0.5px;
+	border-left:1px solid #cecbce;
+	border-right:1px solid #cecbce;
+	position: relative;
+	top:-1px;
+}
+.ui-line-distance {
+	width:70px;
+	height:34px;
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: -1.5px;
+}
