@@ -1,0 +1,32 @@
+.wrapper {}
+
+.banner {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    /*background: black;*/
+    border: 1px solid green;
+}
+
+.banner ul {
+    width: 400px;
+    height: 300px;
+    z-index: 10;
+}
+
+.banner ul li {
+    /*display: none;*/
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 48px;
+    color: red;
+    width: 400px;
+    height: 300px;
+    border: 1px solid pink;
+    opacity: 0;
+}
+
+.banner ul li:first-child {
+    opacity: 1;
+}
